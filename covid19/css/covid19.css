@@ -1,0 +1,512 @@
+*::-webkit-scrollbar{ display:none; }
+*{
+    color: #3F3D56;
+}
+img{
+    -webkit-user-drag: none;
+}
+table{
+    border-collapse: collapse;
+}
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media screen and (min-width:0px){
+    #s0s0img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: block;
+    }
+    
+    #s0s0p0{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-70%,-0%);
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #s0s0p1{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 20%;
+        top: 90%;
+        transform: translate(-20%,-90%);
+        font-size: 3vw;
+        font-weight: bold;
+        color: #6C63FF;
+    }
+    #s0s0p2{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 80%;
+        top: 90%;
+        transform: translate(-80%,-90%);
+        font-size: 3vw;
+        font-weight: bold;
+        color: #6C63FF;
+    }
+    #s0s1img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%,0.5%);
+    }
+    #s0s1p0{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%,-10%);
+        font-size: 3vh;
+        font-weight: bold;
+        line-height: 6vh;
+    }
+
+    #s1s0img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 90%;
+        top:50%;
+        transform: translate(-90%,-50%);
+    }
+
+    #s1s0p0{
+        width: 50%;
+        height: auto;
+        text-align:left;
+        position: absolute;
+        display: block;
+        left: 20%;
+        top: 50%;
+        transform: translate(-20%,-50%);
+        font-size: 5vh;
+        font-weight: bold;
+        line-height: 20vh;
+        color: #6C63FF;
+    }
+
+    span[id^=s1s0span] span{
+        color: #3F3D56;
+    }
+    span[id^=s1s0span]{
+        color: #6C63FF;
+    }
+    span[id^=s1s0span]:hover{
+        color: #EE3F5C;
+    }
+
+
+
+
+    .mainTitle{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%,-10%);
+        font-size: 5vw;
+        font-weight: bold;
+        line-height: 15vw;
+        color: #6C63FF;
+    }
+
+
+
+    #s2s0img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #s2s0p1{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%,-90%);
+        font-size: 3vw;
+        font-weight: bold;
+        color: #6C63FF;
+    }
+
+
+    #infectionForm{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        display: block;
+        top: 10%;
+    }
+    #infectionYear{
+        width: 25%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left:0%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #infectionMonth{
+        width: 25%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 25%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #infectionDate{
+        width: 25%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #infectionButton{
+        width: 25%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 75%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        background-color: #6C63FF;
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #infectionButton:hover{
+        color: #3F3D56;
+        opacity: 0.9;
+    }
+    #infectionFigure{
+        top: 20%;
+        overflow:auto;
+        width: 100%;
+        height: 80%;
+        position:absolute;
+        display: block;
+
+    }
+    #infectionFigure tr{
+        width: 100%;
+    }
+    #infectionFigure td{
+        border: 2px solid #6C63FF;
+        font-size: 3vw;
+    }
+
+    #infectionFigure table{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    #infectionFigure tr:nth-of-type(1) td{
+        border: 2px solid #6C63FF;
+        height: 50px;
+        background-color: #6C63FF;
+        font-size: 3vw;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .title{
+        height: 10%;
+        border: 2px solid #6C63FF;
+        background-color: #6C63FF;
+        color:white;
+        font-size: 3vw;
+        line-height: 10vh;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #s3s0img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #s3s0p1{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%,-90%);
+        font-size: 3vw;
+        font-weight: bold;
+        color: #6C63FF;
+    }
+
+
+
+
+    #vaccineLocationForm{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        display: block;
+        top: 10%;
+    }
+    #vaccineLocation{
+        width: 50%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left:0%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #vaccineLocationButton{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 50%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        background-color: #6C63FF;
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #vaccineLocationButton:hover{
+        color: #3F3D56;
+        opacity: 0.9;
+    }
+    #vaccineLocationFigure{
+        top: 20%;
+        overflow:auto;
+        width: 100%;
+        height: auto;
+        position:absolute;
+        display: block;
+    }
+    #vaccineLocationFigure tr{
+        width: 100%;
+    }
+    #vaccineLocationFigure table{
+        width: 100%;
+        height: 100%;
+    }
+    #vaccineLocationFigure tr{
+        width: 100%;
+        border: 2px solid #6C63FF;
+    }
+    #vaccineLocationFigure td{
+        border: 2px solid #6C63FF;
+        font-size: 3vw;
+    }
+
+    #vaccineLocationFigure tr:nth-of-type(1) td{
+        border: 2px solid #6C63FF;
+        height: 50px;
+        background-color: #6C63FF;
+        font-size: 3vw;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+    #screeningCenterForm{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        display: block;
+        top: 10%;
+    }
+    #screeningCenter{
+        width: 50%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left:0%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #screeningCenterButton{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 50%;
+        transform: translate(0%,0%);
+        border: 2px solid #6C63FF;
+        outline: none;
+        text-align: center;
+        background-color: #6C63FF;
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #screeningCenterButton:hover{
+        color: #3F3D56;
+        opacity: 0.9;
+    }
+    #screeningCenterFigure{
+        top: 20%;
+        overflow:auto;
+        width: 100%;
+        height: auto;
+        position:absolute;
+        display: block;
+    }
+
+    #screeningCenterFigure table{
+        width: 100%;
+        height: 100%;
+    }
+    #screeningCenterFigure tr{
+        width: 100%;
+    }
+    #screeningCenterForm td{
+        border: 2px solid #6C63FF;
+    }
+
+    #screeningCenterFigure td{
+        border: 2px solid #6C63FF;
+        font-size: 3vw;
+    }
+
+    #screeningCenterFigure tr:nth-of-type(1) td{
+        border: 2px solid #6C63FF;
+        height: 50px;
+        background-color: #6C63FF;
+        font-size: 3vw;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #s4s0img0{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #s4s0p1{
+        width: 50%;
+        height: auto;
+        text-align:center;
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%,-90%);
+        font-size: 3vw;
+        font-weight: bold;
+        color: #6C63FF;
+    }
+
+}
